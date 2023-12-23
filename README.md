@@ -45,17 +45,11 @@ Before you begin the installation process, ensure that you have the following pr
     ```bash
     php artisan migrate
 
-5. **Install Laravel Breeze:**
-
-    ```bash
-    composer require laravel/breeze --dev
-    php artisan breeze:install
-
-6. **Install Frontend Assets:**
+5. **Install Frontend Assets:**
     ```bash
     npm run dev
 
-7. **Start the Development Server:**
+6. **Start the Development Server:**
     ```bash
    php artisan serve
 Visit http://localhost:8000 in your browser to see your Laravel Breeze project.
