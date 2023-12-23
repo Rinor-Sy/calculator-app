@@ -25,7 +25,7 @@ Before you begin the installation process, ensure that you have the following pr
    Clone the repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/your-username/your-project.git
+   git clone https://github.com/Rinor-Sy/calculator-app.git
 
 2. **Install Dependencies:** Navigate to the project directory and install PHP dependencies using Composer:
 
