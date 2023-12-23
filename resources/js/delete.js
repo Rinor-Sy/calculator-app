@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (confirm('Are you sure you want to delete all data?')) {
             fetch('delete', {
-                method: 'POST',
+                method: 'DELETE',
                 headers: {
                     'Accept': 'application/json',
                     'Content-Type': 'application/json',
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 },
             })
                 .then((response) => {
-                    return response.json();
+                                        return response.json();
                 })
                 .then(() => {
                     document.querySelector('tbody').innerHTML = '';

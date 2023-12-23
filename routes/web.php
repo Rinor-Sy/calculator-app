@@ -35,6 +35,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/calculator', [CalculationsController::class, 'create'])->name('calculator');
     Route::get('/calculation-history', [CalculationsController::class, 'index'])->name('calculation-history');
     Route::post('/calculate', [CalculationsController::class, 'calculate']);
+    Route::delete('/delete', [CalculationsController::class, 'delete']);
 });
 
 require __DIR__.'/auth.php';
