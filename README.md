@@ -5,9 +5,9 @@
 This README file provides a step-by-step guide for setting up a Laravel project using Laravel Breeze. Laravel Breeze is a minimal starter kit for Laravel that includes authentication scaffolding, making it easy to get started with user registration, login, and password reset functionality.
 
 **Project Details:**
-- Laravel Version: 8.x
+- Laravel Version: 10.x
 - PHP Version: 8.1
-- Laravel Breeze Version: Latest (Please refer to the [official Laravel Breeze documentation](https://laravel.com/docs/8.x/starter-kits#laravel-breeze) for the latest version information)
+- Laravel Breeze Version: Latest (Please refer to the [official Laravel Breeze documentation](https://laravel.com/docs/10.x/starter-kits#laravel-breeze) for the latest version information)
 
 ## Prerequisites
 
